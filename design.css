@@ -6,7 +6,7 @@ body{
 .container{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     margin:  auto;
 
 }
@@ -15,18 +15,21 @@ body{
     color: blue;
     text-decoration: underline;
 }
+.container h4{
+    color: blueviolet;
 
-.heading h1{
+}
+
+.container.heading h1{
     border-bottom: 2px solid black ;
-    color: red;
+
 }
 
 .image{
-    width: 50%;
-    padding: 10px;
+    width: 20%;
+    padding: 5px;
 }
 
 .image-conatiner{
     border: 2px solid black;
-    
 }
